@@ -1,0 +1,7 @@
+---
+
+- name: run the playbook tasks on the localhost
+  hosts: localhost
+  become: yes
+  roles:
+      - ansible-role-jenkins
